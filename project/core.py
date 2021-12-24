@@ -92,18 +92,12 @@ def iterate(x, px, noise, omega_0, omega_1, omega_2, R_1, R_2, TH_MAX, barrier_r
     (float, float, unsigned int)
         (x, px, iterations)
     """    
-    
-    
-    for i in range(len(noise)):
-        
-        
+    for i in range(len(noise)):        
         action = (x * x + px * px) * 0.5
-        rot_angle = omega_0 + (omega_1 * action) + (0.5*  omega_2 * action * action)
-        
+        rot_angle = omega_0 + (omega_1 * action) + (0.5*  omega_2 * action * action) 
         if (x==0) and (px==0):
             return 0.0, 0.0, start
         if (np.sqrt(action*2) >= barrier_radius):
-        
             return 0.0, 0.0, i + start 
         temp1 = x
         temp2 = (px + (noise[i]
@@ -112,10 +106,8 @@ def iterate(x, px, noise, omega_0, omega_1, omega_2, R_1, R_2, TH_MAX, barrier_r
         px = -np.sin(rot_angle) * temp1 + np.cos(rot_angle) * temp2
         action = (x * x + px * px) * 0.5
         if (np.sqrt(action*2) >= barrier_radius):
-        
             return 0.0, 0.0, i + start 
         
-
     return x, px, i + start +1
 
 
