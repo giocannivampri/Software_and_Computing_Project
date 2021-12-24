@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 np.random.seed(4)
 
 
-#machine's parameters (these are given and fixed)
+#machine's parameters (these are given and fixed based on the machine's condition)
 radius=6.7
 th_MAX=  0.3e-6
 emittance_star=2.5e-6
@@ -24,10 +24,10 @@ sigma_p2=2.0
 
 
 #setting simulation's parameters (one can play around with these to generate various results)
-r_1=5
-r_2=2*r_1
-iterations= 10**5
-n_particle=10**6
+r_1=5   #inner radius of the lens
+r_2=2*r_1   #outer radius of the lens, usually 2 times r_1
+iterations= 10**5   #iterations of the simulation, i.e. the number of turns in the accelerator
+n_particle=10**6   #number of total initial beam protons
 
 
 
@@ -63,7 +63,8 @@ print('__________________________________________________\n')
 print('Percentage of beam affected by HEL (Halo):', len(x0)/n_particle)
 print('Halo loss percentage after', iterations,'iterations:',per)
 print('__________________________________________________\n')
-tempi_mappa, corrente_mappa = mappa.current_binning(3000)
+binning=3000
+tempi_mappa, corrente_mappa = mappa.current_binning(binning)
 
 with open('output/data_I_x_p_th.txt', 'w') as f:
     f.write('')
