@@ -11,7 +11,7 @@ After the simulation the results outputs are plotted and saved.
 ## Organization of the code
 In the **Project folder** one can find the codes and output files:
 
- -------------------------- **Code Files** -------------------------------------------------------------------------------------------------------------------------
+ -------------------------- **Code Files** ------------------------------------------------------------------------------------------------------
  
  1. *script_map.py*: Script in which initial distributions are generated and parameteres are set. Here an instance of the simulation is generated and the iterations are called. Then, all the results are saved and plotted;
 
@@ -19,7 +19,7 @@ In the **Project folder** one can find the codes and output files:
 
  3. *core.py*: Module containing all the actual mathematical calculations of the map iterations.
 
- -------------------------- **Output Files** -----------------------------------------------------------------------------------------------------------------------
+ -------------------------- **Output Files** ----------------------------------------------------------------------------------------------------
  
  9. *data_I_x_p_th.txt*: Output file contianing data of the final action, position, momentum and angle of the surviving halo particles;
  10. *Action_distribution.pdf*: Pdf file containing the plot of the final action distribution;
