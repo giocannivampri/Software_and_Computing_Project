@@ -27,4 +27,4 @@ All the outputs are saved in the *output* folder
 
 ## 3) Play around with the simulation
 
-It is possible to personalize the simulation by modifying the parameters inside *script.py*; one can change the number of initial particles and the number of iterations of the map, and it is also possible to choose the HEL radius. One can also experiment with variuos different noises by changing it inside *core.py* (a few examples of noise are commented here); one can also generate a correlated noise by choosing a correlation coefficient (*gamma*) while calling the *make_correlated_noise* function.
+It is possible to personalize the simulation by modifying the parameters inside *script.py*; one can change the number of initial particles and the number of iterations of the map, and it is also possible to choose the HEL radius. One can also experiment with variuos noises by changing it inside the *make_correlated_noise* function present in *core.py* (a few examples of noise are commented here); one can also generate a correlated noise by choosing a correlation coefficient (*gamma*) while calling the aforementioned function.
