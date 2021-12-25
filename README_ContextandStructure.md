@@ -6,7 +6,7 @@ The lens is thus an hollow beam of electrons that acts only on the halo of the p
 
 In this code we generate initial disrtibutions of protons and we choose various simulation's parameters as the HEL inner and outer radius (given in RMS beam size), or the number of initial protons and iterations of the map. All the other parameters are given by the LHC working conditions. It is possible to change the kind of noise to have different results; in the module *core.py*, inside the *make_correlated_noise* function, few noise examples are commented. There can also be a correlation in the noise realizations which depends on the *gamma* parameter (dafault is 0). 
 It is possible to write a script that ask to run the full simulation and print results, as the one here, or to run the simulation by steps and see the gradual evolution of the system. 
-After the simulation the results outputs are plotted and saved.
+After the simulation the results outputs are plotted and saved, and the information about the halo loss percentage is printed.
 
 ## Organization of the code
 In the **Project folder** one can find the codes and output files:
