@@ -2,11 +2,11 @@
 ## 0) Install Numba
 If you don't have installed it yet, Numba is available as a conda package for the Anaconda Python distribution. Once you have conda installed, just type:
 
-- '$ conda install numba'
+   $ conda install numba
 
 or you can install Numba using pip:
 
-- '$ pip install numba'
+   $ pip install numba
 
 ## 1) Download and unzip
 
@@ -16,11 +16,11 @@ Download the project from the repository of GitHub and unzip the folder to extra
 
 Enter on the bash the position of the downloaded folder:
 
-- 'cd path/Software_and_Computing_Project/Project'
+   cd path/Software_and_Computing_Project/project
 
 Then type:
 
-- 'python script.py'.
+   python script.py
 
 All the outputs are saved in the *output* folder
 
