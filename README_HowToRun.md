@@ -16,7 +16,7 @@ Download the project from the repository of GitHub and unzip the folder to extra
 
 Enter on the bash the position of the downloaded folder:
 
-    cd path/Software_and_Computing_Project/project
+    cd path/Software_and_Computing_Project-main/project
 
 Then type:
 
