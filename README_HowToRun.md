@@ -20,7 +20,7 @@ Enter on the bash the position of the downloaded folder:
 
 Then type:
 
-    python script.py
+    python script_map.py
 
 All the outputs are saved in the *output* folder
 
