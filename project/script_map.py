@@ -24,7 +24,7 @@ sigma_p2=2.0
 
 
 #setting simulation's parameters (one can play around with these to generate various results)
-r_1=5   #inner radius of the lens
+r_1=5   #inner radius of the lens expressed in RMS beam size
 r_2=2*r_1   #outer radius of the lens, usually 2 times r_1
 iterations= 10**5   #iterations of the simulation, i.e. the number of turns in the accelerator
 n_particle=10**6   #number of total initial beam protons
