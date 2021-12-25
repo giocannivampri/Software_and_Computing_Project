@@ -15,7 +15,7 @@ In the **Project folder** one can find the codes and output files:
  
  1. *script_map.py*: Script in which initial distributions are generated and parameteres are set. Here an instance of the simulation is generated and the iterations are called. Then, all the results are saved and plotted;
 
- 2. *initmap.py*: Module containing the classes, with various useful methods to monitor the simulation, including the one that calculate the current of particles loss.
+ 2. *init_map.py*: Module containing the classes, with various useful methods to monitor the simulation, including the one that calculate the current of particles loss.
 
  3. *core.py*: Module containing all the actual mathematical calculations of the map iterations.
 
