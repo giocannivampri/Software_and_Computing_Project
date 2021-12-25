@@ -1,6 +1,7 @@
 # Software_and_Computing_Project
 Software and Computing Project - Beam halo diffusion in a circular accelerator by means of an hollow electron lens.
 
+Author: Giovanni Campri
 
 
 ### List of the folders in the repository:
