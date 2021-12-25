@@ -3,8 +3,8 @@ This code have to compute many iterations of the simulation and it does that for
 In this way we are left with only around 10^4 particles to iterate 10^5 times. It is still a large amount of computation to make.
 To speed up the simulation here we make use of Numba. Numba is a just-in-time compiler, really useful if one has code that uses NumPy arrays and functions with loops. When a call is made to a Numba-decorated function, it is compiled to machine code “just-in-time” for execution and the code can run at native machine code speed. 
 
-The runtime of the simulation of 10^6 total initial particles (around 14x10^3 halo particles, fixing r_1 equal to 5) for 10^3 iterations is around 198 seconds, while using Numba it is around 1.4 senconds, which gives a **speed up** of around 141.4.
+The runtime of the simulation of 10^6 total initial particles (around 14*10^3 halo particles, fixing r_1 equal to 5) for 10^3 iterations is around 198 seconds, while using Numba it is around 1.4 senconds, which gives a **speed up** of around 141.4.
 
-A further optimization is the the option to enable the automatic parallelization of the code using Numba by specifying *Parallel=True* in the decorator. If, this time, we perform 2x10^5 iterations, the regular simulation takes around 70 seconds, while the parallelized one takes around 24 seconds, which gives a further **speed up** of around 2.9.
+A further optimization is the the option to enable the automatic parallelization of the code using Numba by specifying *Parallel=True* in the decorator. If, this time, we perform 2*10^5 iterations, the regular simulation takes around 70 seconds, while the parallelized one takes around 24 seconds, which gives a further **speed up** of around 2.9.
 
 
