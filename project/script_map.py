@@ -1,4 +1,4 @@
-from _initmap_ import make_correlated_noise, symplectic_map as sm
+from init_map import make_correlated_noise, symplectic_map as sm
 import numpy as np
 import matplotlib.pyplot as plt
 np.random.seed(4)
