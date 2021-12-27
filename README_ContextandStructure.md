@@ -9,7 +9,7 @@ It is possible to write a script that asks to run the full simulation and print 
 After the simulation the result outputs are plotted and saved, and the information about the halo loss percentage is printed.
 
 ## Organization of the code
-In the **Project folder** one can find the codes files and output folder:
+In the **Project folder** one can find the code files and output folder:
 
  --------------------------------------------------------------- **Code Files** ---------------------------------------------------------------
  
