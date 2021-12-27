@@ -30,6 +30,8 @@ iterations= 10**5   #iterations of the simulation, i.e. the number of turns in t
 n_particle=10**6   #number of total initial beam protons
 
 
+print('\n \n___________________Processing...___________________\n \n')
+
 
 #creating initial distributions
 Min_I=r_1**2 * 0.5 
