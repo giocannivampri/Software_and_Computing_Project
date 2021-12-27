@@ -30,7 +30,7 @@ iterations= 10**5   #iterations of the simulation, i.e. the number of turns in t
 n_particle=10**6   #number of total initial beam protons
 
 
-print('\n \n___________________Processing...___________________\n \n')
+print('\n \n___________________Processing...___________________\n')
 
 
 #creating initial distributions
@@ -63,8 +63,8 @@ x, p, t = mappa.get_filtered_data()
 per=(len(x0)-len(x))/len(x0)
 print('__________________________________________________\n')
 print('Percentage of beam affected by HEL (Halo):', len(x0)/n_particle)
-print('Halo loss percentage after', iterations,'iterations:',per)
-print('__________________________________________________\n')
+print('\nHalo loss percentage after', iterations,'iterations:',per)
+print('\n__________________________________________________\n')
 binning=3000
 tempi_mappa, corrente_mappa = mappa.current_binning(binning)
 
