@@ -22,7 +22,7 @@ In the **Project folder** one can find the code files and output folder:
  --------------------------------------------------------------- **Output Files** --------------------------------------------------------------
  
  9. *data_I_x_p_th.txt*: Output file contianing data of the final action, position, momentum and angle of the surviving halo particles;
- 10. *Action_distribution.pdf*: Pdf file containing the plot of the final action distribution;
- 11. *Theta_distribution.pdf*: Pdf file containing the plot of the final angle distribution;
+ 10. *Action_distribution.pdf*: Pdf file containing the plot of the final halo action distribution;
+ 11. *Theta_distribution.pdf*: Pdf file containing the plot of the final halo angle distribution;
  12. *Current.pdf*: Pdf file containing the plot of the particle loss current;
  13. *Phase_space.pdf*: Pdf file containing the plot of the final halo phase space.
