@@ -5,7 +5,7 @@ The code presented here is part of my thesis work. The aim is to create a simple
 The lens is thus an hollow beam of electrons that acts only on the halo of the protons beam at a specific point of the machine, while leaving the core unchanged. This translates in to a kick in the map of the protons that can be modulated and made stochastic in order to create the necessary noise to produce the diffusion. The final goal would be to find the noise that can allow the fastest diffusion possible.
 
 In this code we generate initial disrtibutions of protons and we choose various simulation's parameters as the HEL inner and outer radius (given in RMS beam sizes), or the number of initial protons and iterations of the map (i.e. turns in the accelerator). All the other parameters are given by the LHC working conditions. It is possible to change the kind of noise to have different results; in the module *core.py*, inside the *make_correlated_noise* function, few noise examples are commented. There can also be a correlation in the noise realizations which depends on the *gamma* parameter (dafault is 0). 
-It is possible to write a script that ask to run the full simulation and print results, as the one here, or to run the simulation by steps and see the gradual evolution of the system. 
+It is possible to write a script that asks to run the full simulation and print results, as the one here, or to run the simulation by steps and see the gradual evolution of the system. 
 After the simulation the results outputs are plotted and saved, and the information about the halo loss percentage is printed.
 
 ## Organization of the code
