@@ -1,6 +1,6 @@
 # How To Run
 ## 0) Install Numba
-if you haven't already installed it, Numba is available as a conda package for the Anaconda Python distribution. Once you have conda installed, just type:
+If you haven't already installed it, Numba is available as a conda package for the Anaconda Python distribution. Once you have conda installed, just type:
 
     $ conda install numba
 
